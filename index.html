@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ky">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f1e8">
+  <meta name="description" content="Арген менен Аишанын үйлөнүү тоюна чакыруу. 11.11.2026, саат 18:00, ATA Banquet Hall.">
+  <title>Арген & Аиша | Үйлөнүү тоюна чакыруу</title>
+  <style>
+    :root{--ivory:#f8f3eb;--paper:#fffdf9;--gold:#a88758;--gold2:#d8c29d;--ink:#342a20;--muted:#75695c}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+    .hero{min-height:92svh;position:relative;display:flex;align-items:end;overflow:hidden;background:#29231e}
+    .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,16,13,.78),rgba(20,16,13,.22)),url('photo-3.jpeg') center 42%/cover;transform:scale(1.02)}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(18,14,11,.58),transparent 62%)}
+    .hero-inner{position:relative;z-index:1;padding:clamp(28px,7vw,90px);color:#fff7eb;max-width:850px}
+    .eyebrow{letter-spacing:.32em;text-transform:uppercase;font-size:12px;color:#ead7b8}.names{font-size:clamp(58px,12vw,118px);font-weight:400;line-height:.9;margin:22px 0}.amp{color:#d9bd91;font-style:italic;font-size:.68em}.intro{font-size:clamp(15px,2.5vw,20px);line-height:1.65;max-width:480px}
+    .topbar{position:absolute;z-index:3;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:22px clamp(20px,5vw,64px);color:#fff}.topbar a{color:inherit;text-decoration:none;letter-spacing:.15em;font-size:11px;margin-left:18px}
+    .music{border:1px solid #d9bd91;border-radius:40px;padding:11px 17px;background:rgba(255,255,255,.12);color:#fff7eb;cursor:pointer;font:inherit;backdrop-filter:blur(8px)}
+    section{padding:76px 20px}.wrap{max-width:960px;margin:auto}.details{background:var(--paper);text-align:center}.section-kicker{color:var(--gold);letter-spacing:.3em;text-transform:uppercase;font-size:12px}.section-title{font-size:clamp(30px,6vw,48px);font-weight:400;margin:14px 0 34px}.detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:36px 0}.detail{padding:22px 12px;border-top:1px solid var(--gold2);border-bottom:1px solid var(--gold2)}.detail .symbol{font-size:26px;color:var(--gold)}.detail strong{display:block;font-size:20px;font-weight:400;margin:10px 0 5px}.detail span{font:14px Arial,sans-serif;color:var(--muted)}
+    .countdown{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:30px 0}.count{background:#f3ece1;min-width:88px;padding:16px 12px;border-radius:8px}.count b{display:block;font-size:34px;font-weight:400;color:var(--gold)}.count small{font:11px Arial,sans-serif;letter-spacing:.1em;color:var(--muted)}
+    .note{font-size:18px;line-height:1.7;max-width:620px;margin:26px auto;color:#5d5043}.rsvp{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;text-decoration:none;border:1px solid var(--gold);border-radius:40px;padding:14px 25px;color:var(--ink);font:14px Arial,sans-serif;letter-spacing:.04em}.btn.primary{background:var(--gold);color:white}
+    .gallery{background:#f3ece1;text-align:center}.photos{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.photos img{width:100%;height:300px;object-fit:cover;border-radius:6px;box-shadow:0 8px 25px #5b47301a}
+    .location{text-align:center;background:var(--paper)}.address{font-size:22px;margin:12px 0}.sub{font:14px Arial,sans-serif;color:var(--muted)}footer{text-align:center;padding:36px 20px;color:var(--muted);font-size:14px}.heart{color:#b78a69}
+    @media(max-width:650px){.topbar nav{display:none}.hero{min-height:84svh}.detail-grid{grid-template-columns:1fr;gap:12px}.detail{padding:16px}.photos{grid-template-columns:repeat(2,1fr)}.photos img{height:230px}section{padding:58px 18px}}
+  </style>
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="topbar"><div class="eyebrow">11 · 11 · 2026</div><nav><a href="#details">ДЕТАЛИ</a><a href="#gallery">ГАЛЕРЕЯ</a><a href="#location">АДРЕС</a></nav><button class="music" id="musicBtn" type="button">♫ Музыканы кошуу</button></div>
+    <div class="hero-inner"><div class="eyebrow">Биздин тойго чакырабыз</div><h1 class="names">Арген <span class="amp">&</span><br>Аиша</h1><p class="intro">Эки жүрөк, бир тагдыр, бир чоң бакыт... Биз үчүн өзгөчө болгон бул күнү сиздерди жаныбызда көрүүгө кубанычтабыз.</p></div>
+  </header>
+  <audio id="weddingMusic" loop preload="none"><source src="music.mp3" type="audio/mpeg"></audio>
+  <main>
+    <section class="details" id="details"><div class="wrap"><div class="section-kicker">Урматтуу коноктор</div><h2 class="section-title">Той салтанаты</h2><p class="note">Сиздерди Арген менен Аишанын үйлөнүү тоюна арналган кубанычтуу кечебизге чакырабыз. Бул күндү биз менен бирге белгилеңиздер!</p>
+      <div class="detail-grid"><div class="detail"><div class="symbol">♧</div><strong>11.11.2026</strong><span>Шаршемби</span></div><div class="detail"><div class="symbol">◷</div><strong>18:00</strong><span>Башталышы</span></div><div class="detail"><div class="symbol">⌖</div><strong>ATA BANQUET HALL</strong><span>Мадиева 22Б</span></div></div>
+      <div class="section-kicker">Тойго чейин калган убакыт</div><div class="countdown" aria-live="polite"><div class="count"><b id="days">--</b><small>КҮН</small></div><div class="count"><b id="hours">--</b><small>СААТ</small></div><div class="count"><b id="minutes">--</b><small>МИНУТ</small></div><div class="count"><b id="seconds">--</b><small>СЕКУНД</small></div></div>
+      <p class="note">Сиздердин келишиңиздер биз үчүн чоң кубаныч жана баа жеткис белек болот.</p>
+      <div class="rsvp"><a class="btn primary" id="yesBtn" target="_blank" rel="noopener">✓ КЕЛЕМ</a><a class="btn" id="noBtn" target="_blank" rel="noopener">КЕЛЕ АЛБАЙМ</a></div>
+    </div></section>
+    <section class="gallery" id="gallery"><div class="wrap"><div class="section-kicker">Эсте калар көз ирмемдер</div><h2 class="section-title">Биздин галерея</h2><div class="photos"><img src="photo-1.jpeg" alt="Ак розалар жана нике шакеги"><img src="photo-2.jpeg" alt="Үйлөнүү шакектери жана гүлдөр"><img src="photo-3.jpeg" alt="Жубайлардын колдору"><img src="photo-4.jpeg" alt="Келин менен күйөөнүн колдору"></div></div></section>
+    <section class="location" id="location"><div class="wrap"><div class="section-kicker">Сиздерди күтөбүз</div><h2 class="section-title">Той өтүүчү жай</h2><div class="address">ATA BANQUET HALL</div><p class="sub">Мадиева көчөсү, 22Б</p><a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=ATA+Banquet+Hall+Madieva+22B" target="_blank" rel="noopener">КАРТАДАН КӨРҮҮ ↗</a></div></section>
+  </main>
+  <footer>Сүйүү менен, <span class="heart">♥</span> Арген & Аиша</footer>
+  <script>
+    // Event time: 11 November 2026, 18:00, Bishkek time (UTC+6)
+    const target = new Date('2026-11-11T18:00:00+06:00').getTime();
+    const pad = n => String(n).padStart(2,'0');
+    function tick(){let diff=target-Date.now();if(diff<=0){document.querySelector('.countdown').innerHTML='<p class="note">Бүгүн биздин өзгөчө күн! Той башталды ♥</p>';return;}const d=Math.floor(diff/86400000);const h=Math.floor(diff%86400000/3600000);const m=Math.floor(diff%3600000/60000);const s=Math.floor(diff%60000/1000);document.getElementById('days').textContent=d;document.getElementById('hours').textContent=pad(h);document.getElementById('minutes').textContent=pad(m);document.getElementById('seconds').textContent=pad(s);}
+    tick();setInterval(tick,1000);
+    const phone='996220211194';
+    const makeLink = answer => 'https://wa.me/'+phone+'?text='+encodeURIComponent('Саламатсыздарбы! Арген менен Аишанын 11.11.2026 күнкү тоюна чакыруу алдым. '+answer+'.');
+    document.getElementById('yesBtn').href=makeLink('Мен тойго келем');
+    document.getElementById('noBtn').href=makeLink('Тилекке каршы, келе албайм');
+    const audio=document.getElementById('weddingMusic'), musicBtn=document.getElementById('musicBtn');
+    musicBtn.addEventListener('click',async()=>{try{if(audio.paused){await audio.play();musicBtn.textContent='Ⅱ Музыканы токтотуу';}else{audio.pause();musicBtn.textContent='♫ Музыканы кошуу';}}catch(e){alert('Музыка кошуу үчүн сайттын папкасына music.mp3 деген ат менен ыр файлын салыңыз.');}});
+  </script>
+</body>
+</html>
